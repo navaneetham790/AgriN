@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+frontend/dist/
+frontend/.vite/
+.vite/
+**/target/
+*.class
+*.jar
+
+# Logs
+*.log
+.DS_Store
+Thumbs.db

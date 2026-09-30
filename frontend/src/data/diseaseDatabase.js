@@ -1,0 +1,72 @@
+export const DISEASE_DATABASE = [
+  {
+    id: 'potato-late-blight',
+    name: 'Potato Late Blight',
+    scientificName: 'Phytophthora infestans',
+    affectedCrops: ['Potato', 'Tomato'],
+    severity: 'High (Critical Yield Risk)',
+    confidenceScore: 0.96,
+    symptoms: 'Dark brown to black water-soaked lesions on leaves and stems, with white mildew growth on underside in damp conditions.',
+    causes: 'Cool, wet humid weather (humidity >85%, temp 15-22°C). Spores travel via wind & rain splash.',
+    organicTreatment: 'Apply Copper Octanoate or Trichoderma viride bio-fungicide every 7 days. Prune infected stems immediately and burn.',
+    regenerativePrevention: 'Plant certified blight-resistant varieties (e.g. Kufri Girdhari). Maintain wide plant spacing for airflow and mulch with straw to prevent soil-to-leaf spore splash.',
+    bricsImpactZone: 'India (Himachal/Punjab), Russia (Krasnodar), China (Heilongjiang)',
+    sampleImageSvg: 'leaf-blight'
+  },
+  {
+    id: 'wheat-stripe-rust',
+    name: 'Wheat Stripe (Yellow) Rust',
+    scientificName: 'Puccinia striiformis',
+    affectedCrops: ['Wheat', 'Barley'],
+    severity: 'High',
+    confidenceScore: 0.94,
+    symptoms: 'Yellowish-orange pustules arranged in distinct stripes parallel to leaf veins.',
+    causes: 'Cool temperatures (10-15°C) and high dew formation.',
+    organicTreatment: 'Foliar spray of Neem leaf extract (5%) mixed with Pseudomonas fluorescens bio-agent. Dust soil with bio-sulfur.',
+    regenerativePrevention: 'Adopt intercropping with leguminous crops (Chickpea/Fava Bean) to break fungal spore corridors across fields.',
+    bricsImpactZone: 'India (NW Plain Zone), China (Yellow River Basin), South Africa (Western Cape)',
+    sampleImageSvg: 'wheat-rust'
+  },
+  {
+    id: 'corn-common-rust',
+    name: 'Corn Common Rust',
+    scientificName: 'Puccinia sorghi',
+    affectedCrops: ['Maize / Corn', 'Sorghum'],
+    severity: 'Moderate',
+    confidenceScore: 0.91,
+    symptoms: 'Oval to elongate reddish-brown pustules scattered across both upper and lower leaf surfaces.',
+    causes: 'High humidity and warm days combined with cool nights.',
+    organicTreatment: 'Bio-fungicide application of Bacillus subtilis. Spray fermented butter-milk (Lassi) solution mixed with copper sulfate.',
+    regenerativePrevention: 'Ensure crop rotation with non-cereal legumes (Soybean / Cowpea). Avoid over-application of synthetic nitrogen.',
+    bricsImpactZone: 'Brazil (Mato Grosso), South Africa (Free State), China (Black Soil)',
+    sampleImageSvg: 'corn-rust'
+  },
+  {
+    id: 'tomato-leaf-curl',
+    name: 'Tomato Leaf Curl Virus (ToLCV)',
+    scientificName: 'Begomovirus ToLCV',
+    affectedCrops: ['Tomato', 'Chili', 'Papaya'],
+    severity: 'Severe',
+    confidenceScore: 0.97,
+    symptoms: 'Upward curling and yellowing of leaf margins, stunted plant growth, aborted flower buds.',
+    causes: 'Vectored by Whitefly (Bemisia tabaci) during dry hot spells.',
+    organicTreatment: 'Yellow sticky traps (25 traps/ha). Spray bio-pesticide made from Neem oil (10,000 ppm) + garlic-chili extract.',
+    regenerativePrevention: 'Plant border crops of Maize or Sorghum as natural windbreaks to block vector whiteflies. Intercrop with Marigold.',
+    bricsImpactZone: 'India, Egypt, UAE, Ethiopia',
+    sampleImageSvg: 'tomato-curl'
+  },
+  {
+    id: 'rice-bacterial-blight',
+    name: 'Rice Bacterial Leaf Blight',
+    scientificName: 'Xanthomonas oryzae',
+    affectedCrops: ['Rice / Paddy'],
+    severity: 'High',
+    confidenceScore: 0.93,
+    symptoms: 'Water-soaked wavy streaks along leaf margins that turn yellow-orange and dry up into straw-colored stripes.',
+    causes: 'High temperatures (28-34°C), heavy rainstorms, and excess standing water.',
+    organicTreatment: 'Drain standing water for 3 days. Apply fresh cow-dung filtrate (2%) mixed with copper oxychloride.',
+    regenerativePrevention: 'Practice System of Rice Intensification (SRI) with dry-seeding and alternate wetting/drying to reduce anaerobic bacterial proliferation.',
+    bricsImpactZone: 'India (Punjab/West Bengal), China (Yangtze Basin)',
+    sampleImageSvg: 'rice-blight'
+  }
+];

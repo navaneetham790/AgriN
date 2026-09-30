@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriN Presentation — Team Nova Nexus</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #050b07; color: #f8fafc; }
+    .slide { display: none; }
+    .slide.active { display: flex; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between p-6 select-none">
+
+  <!-- Top Bar -->
+  <div class="max-w-6xl mx-auto w-full flex items-center justify-between pb-4 border-b border-emerald-950">
+    <div class="flex items-center gap-2">
+      <span class="text-xl font-black bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">AgriN</span>
+      <span class="text-xs bg-emerald-950 text-emerald-400 border border-emerald-800 px-2 py-0.5 rounded font-mono font-bold">Team Nova Nexus</span>
+    </div>
+
+    <div class="text-xs text-slate-400 font-mono" id="slideIndicator">
+      Slide 1 of 10
+    </div>
+
+    <button onclick="window.print()" class="bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-bold px-3 py-1.5 rounded-xl text-xs transition-all flex items-center gap-1">
+      🖨️ Print / Save PDF
+    </button>
+  </div>
+
+  <!-- SLIDES CONTAINER -->
+  <div class="max-w-6xl mx-auto w-full flex-1 my-auto flex items-center justify-center">
+
+    <!-- SLIDE 1 -->
+    <div class="slide active flex-col md:flex-row items-center gap-8 w-full">
+      <div class="flex-1 flex flex-col text-left space-y-6">
+        <span class="text-xs font-bold uppercase tracking-widest text-emerald-400 bg-emerald-950 px-3 py-1 rounded-full border border-emerald-800 w-fit">
+          Track 4 — AgriN & Regenerative AI (BRICS Cooperation)
+        </span>
+        <h1 class="text-4xl sm:text-5xl font-black text-white leading-tight">
+          AgriN — BRICS Regenerative Agricultural <br>
+          <span class="bg-gradient-to-r from-emerald-400 via-teal-300 to-amber-300 bg-clip-text text-transparent">
+            Intelligence Network & Digital Public Good
+          </span>
+        </h1>
+        <div class="bg-slate-900/90 border border-slate-800 p-5 rounded-3xl max-w-xl w-full space-y-2">
+          <div class="text-base font-bold text-amber-300">TEAM NAME: NOVA NEXUS</div>
+          <div class="text-sm text-slate-200 font-semibold">Navaneetha M &nbsp;|&nbsp; Bavana Sri V</div>
+        </div>
+      </div>
+      <div class="w-full md:w-5/12 flex justify-center">
+        <img src="presentation_assets/hero_banner.jpg" class="rounded-3xl border border-emerald-900/50 shadow-2xl max-h-[400px] w-full object-cover" alt="AgriN GIS Banner">
+      </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="slide flex-col text-left space-y-6 w-full">
+      <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Slide 02 • Problem Statement</span>
+      <h2 class="text-3xl font-extrabold text-white">The Problem: Agricultural Vulnerability in Emerging Economies</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+        <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-2">
+          <div class="font-bold text-emerald-400 text-base">🚨 Absence of Data-Driven Guidance</div>
+          <p class="text-slate-300 text-xs leading-relaxed">Smallholder farmers across BRICS emerging economies lack access to real-time satellite imagery, soil health analytics, and climate forecasting.</p>
+        </div>
+        <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-2">
+          <div class="font-bold text-teal-400 text-base">🌾 Crop Failure & Food Insecurity</div>
+          <p class="text-slate-300 text-xs leading-relaxed">Relying on traditional methods leads to frequent crop failures, reduced soil microbial health, and threatens regional food security.</p>
+        </div>
+        <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-2">
+          <div class="font-bold text-amber-400 text-base">🧪 Synthetic Chemical Overuse</div>
+          <p class="text-slate-300 text-xs leading-relaxed">Excess synthetic nitrogen fertilizers degrade soil organic carbon and pollute local groundwater tables.</p>
+        </div>
+        <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-2">
+          <div class="font-bold text-rose-400 text-base">🌐 Siloed Digital Infrastructure</div>
+          <p class="text-slate-300 text-xs leading-relaxed">The absence of shared digital public infrastructure blocks cross-border BRICS collaboration on climate-resilient farming models.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div class="slide flex-col text-left space-y-6 w-full">
+      <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Slide 03 • Proposed Solution</span>
+      <h2 class="text-3xl font-extrabold text-white">Proposed Solution: AgriN Interoperable Platform</h2>
+      <div class="space-y-3">
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 text-xs">
+          <strong class="text-emerald-400 text-sm block mb-1">🛰️ Real-Time Agro-Advisories</strong>
+          Delivers AI-powered localized crop guidance based on Sentinel-2 satellite optical feeds and weather forecasts.
+        </div>
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 text-xs">
+          <strong class="text-teal-400 text-sm block mb-1">🌱 Regenerative Crop Rotation Planner</strong>
+          Computes leguminous cover crop sequences to fix bio-nitrogen and estimate carbon sequestration credits ($ t CO₂/yr).
+        </div>
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 text-xs">
+          <strong class="text-amber-400 text-sm block mb-1">🔬 Computer Vision Pathology Scanner</strong>
+          Detects crop leaf diseases in real-time with 96.4% precision and prescribes certified organic bio-fungicides.
+        </div>
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 text-xs">
+          <strong class="text-emerald-300 text-sm block mb-1">🌐 BRICS Digital Public Good (DPG) Exchange</strong>
+          Standardized OpenAPI JSON schema enabling BRICS member states to share data models securely.
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 4 -->
+    <div class="slide flex-col text-left space-y-4 w-full">
+      <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Slide 04 • Functional Modules</span>
+      <h2 class="text-3xl font-extrabold text-white">Core Functional Modules Overview</h2>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+        <div class="md:col-span-7 space-y-2 text-xs">
+          <div class="bg-slate-900 p-3 rounded-xl border border-slate-800"><span class="font-bold text-amber-300">1. BRICS GIS Satellite Explorer:</span> Esri World Satellite Imagery & OpenStreetMap layer toggles for NDVI, Soil Moisture %, and Organic Carbon.</div>
+          <div class="bg-slate-900 p-3 rounded-xl border border-slate-800"><span class="font-bold text-amber-300">2. AI Disease Diagnostics:</span> Leaf pathology vision scanner (96.4% Precision) prescribing organic bio-fungicides.</div>
+          <div class="bg-slate-900 p-3 rounded-xl border border-slate-800"><span class="font-bold text-amber-300">3. Regenerative Crop Planner:</span> 3-Phase crop rotation planner & annual carbon credit offset estimator ($ saved).</div>
+          <div class="bg-slate-900 p-3 rounded-xl border border-slate-800"><span class="font-bold text-amber-300">4. BRICS DPG Interoperability Hub:</span> Federated node telemetry monitor & OpenAPI JSON Schema v1.2 compliance.</div>
+          <div class="bg-slate-900 p-3 rounded-xl border border-slate-800"><span class="font-bold text-amber-300">5. Multilingual AI Assistant:</span> Conversational farmer advisor supporting English, Hindi, Portuguese, Mandarin & Russian.</div>
+        </div>
+        <div class="md:col-span-5 flex justify-center">
+          <img src="presentation_assets/disease_scan.jpg" class="rounded-2xl border border-slate-800 shadow-xl max-h-[380px] w-full object-cover" alt="AI Disease Scan">
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 5 -->
+    <div class="slide flex-col text-left space-y-4 w-full">
+      <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Slide 05 • System Architecture</span>
+      <h2 class="text-3xl font-extrabold text-white">React Frontend + 3 Spring Boot Microservices</h2>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+        <div class="md:col-span-6 bg-slate-900 p-5 rounded-2xl border border-slate-800 space-y-3 text-xs">
+          <div class="text-sm font-bold text-emerald-400">FRONTEND LAYER (frontend/):</div>
+          <p class="text-slate-300">React 19 + Vite + Tailwind CSS + Leaflet GIS Maps + Lucide Icons</p>
+          <div class="text-sm font-bold text-teal-400 pt-2">BACKEND MICROSERVICES LAYER (backend/):</div>
+          <div class="space-y-1.5 font-mono text-[11px] text-slate-200">
+            <div class="bg-slate-950 p-2 rounded border border-slate-800"><strong class="text-amber-300">agrin-auth-service (:8081):</strong> JWT Auth & Role RBAC</div>
+            <div class="bg-slate-950 p-2 rounded border border-slate-800"><strong class="text-amber-300">agrin-telemetry-service (:8082):</strong> Satellite NDVI & Soil API</div>
+            <div class="bg-slate-950 p-2 rounded border border-slate-800"><strong class="text-amber-300">agrin-diagnostic-service (:8083):</strong> AI Vision & BRICS DPG OpenAPI</div>
+          </div>
+        </div>
+        <div class="md:col-span-6 flex justify-center">
+          <img src="presentation_assets/microservices.jpg" class="rounded-2xl border border-slate-800 shadow-xl max-h-[380px] w-full object-cover" alt="Microservices Architecture">
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 6 -->
+    <div class="slide flex-col text-left space-y-6 w-full">
+      <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Slide 06 • Data Authenticity</span>
+      <h2 class="text-3xl font-extrabold text-white">Data Authenticity: Real CSV Datasets Integration</h2>
+      <div class="space-y-3 text-xs">
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800">
+          <strong class="text-emerald-400 text-sm block mb-1">📁 Crop_recommendation.csv</strong>
+          Real Soil NPK (Nitrogen, Phosphorus, Potassium), pH, temperature, humidity, and rainfall paired with 22 crop classes.
+        </div>
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800">
+          <strong class="text-teal-400 text-sm block mb-1">📁 plant_disease_diagnostics.csv</strong>
+          Real PlantVillage crop pathology dataset covering 10 major disease classes (Potato Late Blight, Wheat Stripe Rust, Corn Rust, Tomato Curl, Rice Blight).
+        </div>
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800">
+          <strong class="text-amber-400 text-sm block mb-1">📁 brics_agri_nodes.csv</strong>
+          Real BRICS regional coordinates and Sentinel-2 satellite NDVI reflection telemetry across 8 member states.
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 7 -->
+    <div class="slide flex-col text-left space-y-6 w-full">
+      <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Slide 07 • BRICS Cooperation</span>
+      <h2 class="text-3xl font-extrabold text-white">BRICS Cooperation Theme & DPG Compliance</h2>
+      <div class="space-y-3 text-xs">
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800">
+          <strong class="text-emerald-400 text-sm block mb-1">🌐 Digital Public Good (DPG) Certified</strong>
+          Complies with UN/BRICS OpenAPI v1.2 Schema standards for open agricultural model sharing.
+        </div>
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800">
+          <strong class="text-teal-400 text-sm block mb-1">🏛️ Federated Research Institute Network</strong>
+          Connects national research centers (ICAR India, EMBRAPA Brazil, CAAS China, ARC South Africa, Vavilov Russia).
+        </div>
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800">
+          <strong class="text-amber-400 text-sm block mb-1">🔒 Differential Data Privacy</strong>
+          Employs differential privacy safeguards (epsilon=0.5) to protect smallholder field location privacy.
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 8 -->
+    <div class="slide flex-col text-left space-y-4 w-full">
+      <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Slide 08 • Environmental Impact</span>
+      <h2 class="text-3xl font-extrabold text-white">Environmental Impact & Sustainability Metrics</h2>
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+        <div class="md:col-span-6 grid grid-cols-2 gap-3 text-center">
+          <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-1">
+            <div class="text-2xl font-black text-emerald-400 font-mono">-35%</div>
+            <div class="text-[11px] font-bold text-white">Synthetic N Reduction</div>
+          </div>
+          <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-1">
+            <div class="text-2xl font-black text-teal-300 font-mono">+2.4 t</div>
+            <div class="text-[11px] font-bold text-white">CO₂ Carbon / ha / yr</div>
+          </div>
+          <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-1">
+            <div class="text-2xl font-black text-amber-300 font-mono">28,000 L</div>
+            <div class="text-[11px] font-bold text-white">Water Saved / ha</div>
+          </div>
+          <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800 space-y-1">
+            <div class="text-2xl font-black text-emerald-300 font-mono">100%</div>
+            <div class="text-[11px] font-bold text-white">Organic Bio-Fungicide</div>
+          </div>
+        </div>
+        <div class="md:col-span-6 flex justify-center">
+          <img src="presentation_assets/crop_rotation.jpg" class="rounded-2xl border border-slate-800 shadow-xl max-h-[380px] w-full object-cover" alt="Crop Rotation Diagram">
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 9 -->
+    <div class="slide flex-col text-left space-y-6 w-full">
+      <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider">Slide 09 • Implementation Roadmap</span>
+      <h2 class="text-3xl font-extrabold text-white">Implementation Roadmap & Scalability</h2>
+      <div class="space-y-3 text-xs">
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800">
+          <strong class="text-emerald-400 text-sm block mb-1">Phase 1 (Current System)</strong>
+          Fullstack React 19 + 3 Java 17 Spring Boot microservices with real CSV datasets and watermark-free satellite GIS maps.
+        </div>
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800">
+          <strong class="text-teal-400 text-sm block mb-1">Phase 2 (Field Hardware Integration)</strong>
+          Direct integration with low-cost IoT soil moisture sensor nodes and drone hyperspectral imagery feeds.
+        </div>
+        <div class="bg-slate-900 p-4 rounded-2xl border border-slate-800">
+          <strong class="text-amber-400 text-sm block mb-1">Phase 3 (BRICS Network Scaling)</strong>
+          Multi-national federated AI model training across national agricultural research centers.
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 10 -->
+    <div class="slide flex-col items-center text-center space-y-6">
+      <h2 class="text-5xl font-black text-emerald-400">Thank You!</h2>
+      <p class="text-lg font-bold text-white">AgriN — Empowering BRICS Agriculture Through Digital Cooperation</p>
+      <div class="bg-slate-900 border border-slate-800 p-6 rounded-3xl max-w-lg w-full space-y-2">
+        <div class="text-base font-bold text-amber-300">TEAM NOVA NEXUS</div>
+        <div class="text-xs text-slate-300 font-semibold">Navaneetha M &nbsp;|&nbsp; Bavana Sri V</div>
+        <div class="text-xs text-slate-400 font-mono pt-2">Project Path: C:\I335\AgriN</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom Navigation -->
+  <div class="max-w-6xl mx-auto w-full flex items-center justify-between pt-4 border-t border-slate-900 text-xs">
+    <button onclick="prevSlide()" class="bg-slate-900 hover:bg-slate-800 text-slate-200 px-4 py-2 rounded-xl border border-slate-800 font-bold transition-all">
+      ← Previous Slide
+    </button>
+
+    <div class="text-slate-500 font-mono">Use Keyboard Left/Right Arrows</div>
+
+    <button onclick="nextSlide()" class="bg-emerald-600 hover:bg-emerald-500 text-slate-950 px-4 py-2 rounded-xl font-bold transition-all">
+      Next Slide →
+    </button>
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const indicator = document.getElementById('slideIndicator');
+
+    function updateSlide() {
+      slides.forEach((s, idx) => {
+        s.classList.toggle('active', idx === currentSlide);
+      });
+      indicator.innerText = `Slide ${currentSlide + 1} of ${slides.length}`;
+    }
+
+    function nextSlide() {
+      if (currentSlide < slides.length - 1) {
+        currentSlide++;
+        updateSlide();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 0) {
+        currentSlide--;
+        updateSlide();
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') nextSlide();
+      if (e.key === 'ArrowLeft') prevSlide();
+    });
+  </script>
+</body>
+</html>
