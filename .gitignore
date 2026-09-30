@@ -10,6 +10,12 @@ frontend/.vite/
 *.class
 *.jar
 
+# Presentation files excluded from git
+generate_pptx.py
+AgriN_NovaNexus_Presentation.html
+AgriN_NovaNexus_Presentation.pptx
+AgriN_NovaNexus_Presentation_v2.pptx
+
 # Logs
 *.log
 .DS_Store
